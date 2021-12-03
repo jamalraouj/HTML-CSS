@@ -1,0 +1,50 @@
+
+.logo {
+    width: 100px;
+    margin: lef;
+}
+.div0{
+    display: flex;
+    align-items: center;
+    
+}
+.div1{
+    margin-left: 300px;
+}
+.div1 h3{
+    display: inline-block;
+    margin: 0 20px;
+    
+}
+.divItap2{
+
+    display: flex;
+    margin-left: 20px;
+   
+}
+.uList{
+    display: flex;
+    gap: 15px;
+    
+}
+.uList ul{
+    list-style-type: none;
+    border: rgb(27, 27, 27) 1px solid;
+    display: flex;
+}
+.uList ul li img{
+    width: 220px;
+    
+
+}
+.uList li{
+    margin-right: 35px;
+}
+
+
+.ul_p{
+    color: rgb(121, 129, 130);
+}
+.ul_p3{
+    color: rgb(40, 153, 59);
+}
