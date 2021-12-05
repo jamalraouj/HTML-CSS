@@ -1,45 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 
+body{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .logo {
     width: 100px;
-    margin: lef;
+    margin: 30px;
 }
 .div0{
     display: flex;
     align-items: center;
+    color: white;
     
-}
+
+} 
 .div1{
     margin-left: 300px;
-}
-.div1 h3{
+}  
+.div1 a{
     display: inline-block;
     margin: 0 20px;
+    text-decoration: none;
+    font-size: 21px;
+    color: black;
+    font-weight: bold;
     
+}   
+.div1 a:hover{
+    text-decoration: underline;
+    font-size: 23px;
+    color: cornflowerblue;
 }
 .divItap2{
 
     display: flex;
+    margin: 15px;
+    
+    
+}
+.divItap2 a{
+    margin-right:  20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.divItap2 span{
+    margin-right: 15px;
+    font-size: 20px;
+}
+.divItap2 a:hover{
+    text-decoration: underline;
+    font-size: 22px;
+    color: cornflowerblue;
+}
+.divItap3 h2{
+    margin-left: 10px;
+}
+.divItap3 p{
     margin-left: 20px;
-   
+    margin-top: 15px;
 }
 .uList{
     display: flex;
-    gap: 15px;
+    margin: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
     
 }
 .uList ul{
     list-style-type: none;
     border: rgb(27, 27, 27) 1px solid;
     display: flex;
-}
-.uList ul li img{
-    width: 220px;
-    
+    align-items: center;
+    line-height: 40px;
 
 }
-.uList li{
-    margin-right: 35px;
+.uList ul li{
+    margin: 10px;
 }
+.uList ul:hover{
+    transition: transform 0.5s;
+    transform: scale(102%);
+}
+.uList ul li img{
+    width: 200px;
+    height: 120px;
+}
+
 
 
 .ul_p{
