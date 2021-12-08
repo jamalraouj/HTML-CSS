@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	padding:0px;
+	margin:0px; 
+}
+
+body{
+	box-sizing: border-box;
+	font-family: Roboto;
+	background-color: #22577E;
+}
+
+.logo{
+	width: 200px;/*
+	text-align: center;*/
+}
+
+.nav1{
+   text-align: center;
+   margin-top: 20px;
+   background-color: #95D1CC;
+}
+
+.nav1 .menu{
+	margin-top: 20px;
+}
+
+.menu a ,.divItap2 a{
+	margin: 0 10px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.divItap2{
+	margin-top: 30px;
+	text-align: center;
+	background-color: #5584AC;
+
+}
+
+main{
+	padding: 50px;
+	text-align: center;
+	background-color: #22577E;
+}
+.divItap3{
+	margin-top: 20px;
+	text-align: center;
+}
+.divItap3 h2{
+	margin-bottom: 15px;
+}
+.uList{
+	margin-top: 30px;
+	line-height: 40px;
+
+}
+.uList ul {
+	border: 1px solid black;
+	width: 260px;
+	margin: 20PX AUTO;
+	padding-top: 6px;
+	border-radius: 20px;
+	background-color: #009DAE;
+}
+.uList ul li{
+	list-style-type: none;
+}
+.uList ul li img{
+	width: 230px;
+	height: 170px;
+	border-radius: 10px;
+
+}
+/*==================
+*/
+
+@media (min-width: 600px){
+
+	.nav1{
+
+       text-align: left;
+       display: flex;
+       align-items: center;
+
+	}
+	.menu{
+		margin-left: 100px;
+	}
+    .divItap2{
+    	text-align: left;
+    	padding-left: 50px;
+    }
+    .divItap3{
+
+    	text-align: left;
+    	margin-left: 10px;
+    	margin-top: 0px;
+
+    }
+    .divItap3 p{
+    	margin-left: 40px;
+    }
+    .uList{
+    	display: flex;
+    	flex-wrap: wrap;
+
+
+    }
+    .uList ul li {
+    	margin: 0 auto;
+        
+        
+    }
+    .uList ul{
+    	margin: 20px;
+    }
+}
