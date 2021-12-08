@@ -1,6 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@400;600&display=swap');
 *{
 	padding:0px;
 	margin:0px; 
@@ -8,8 +6,8 @@
 
 body{
 	box-sizing: border-box;
-	font-family: Roboto;
-	background-color: #22577E;
+	font-family: Roboto;/*
+	background-color: #22577E;*/
 }
 
 .logo{
@@ -19,8 +17,8 @@ body{
 
 .nav1{
    text-align: center;
-   margin-top: 20px;
-   background-color: #95D1CC;
+   margin-top: 20px;/*
+   background-color: #95D1CC;*/
 }
 
 .nav1 .menu{
@@ -31,26 +29,28 @@ body{
 	margin: 0 10px;
 	text-decoration: none;
 	color: black;
+
 	font-weight: bold;
 }
 .divItap2{
 	margin-top: 30px;
 	text-align: center;
-	background-color: #5584AC;
-
+	/*background-color:#5584AC ;
+	background-color: ;
+*/
 }
 
 main{
 	padding: 50px;
 	text-align: center;
-	background-color: #22577E;
+	/*background-color: #22577E;*/
 }
 .divItap3{
-	margin-top: 20px;
+	margin:20px 0;
 	text-align: center;
 }
-.divItap3 h2{
-	margin-bottom: 15px;
+.divItap3 h1{
+	margin-bottom: 20px;
 }
 .uList{
 	margin-top: 30px;
@@ -68,6 +68,7 @@ main{
 .uList ul li{
 	list-style-type: none;
 }
+
 .uList ul li img{
 	width: 230px;
 	height: 170px;
@@ -76,7 +77,11 @@ main{
 }
 /*==================
 */
+.uList ul li p:nth-child(2){
+             font-weight: 700;
 
+
+     }
 @media (min-width: 600px){
 
 	.nav1{
@@ -114,6 +119,7 @@ main{
         
         
     }
+     
     .uList ul{
     	margin: 20px;
     }
